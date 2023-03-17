@@ -78,9 +78,9 @@ public class LoggingAspect {
 //        System.out.println("------------------------------------------");
 //    }
 
-    @Before("execution( * returnBook*())")
-    public void beforeReturnBookAdvice(){
-        System.out.println("beforeReturnBookAdvice: Попытка вернуть книгу");
-        System.out.println("------------------------------------------");
-    }
+//    @Before("execution( * returnBook*())")
+//    public void beforeReturnBookAdvice(){
+//        System.out.println("beforeReturnBookAdvice: Попытка вернуть книгу");
+//        System.out.println("------------------------------------------");
+//    }
 }
