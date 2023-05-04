@@ -1,27 +1,21 @@
 package com.michaeilgoncharov.spring.mvc;
 
+import javax.validation.constraints.Size;
 import java.lang.reflect.MalformedParametersException;
 import java.util.HashMap;
 import java.util.Map;
 
 public class Employee {
+
     private String name;
     private String surname;
     private int salary;
     private String department;
-    private String carBrand;
-
-    public Map<String, String> getDepartments() {
-        return departments;
-    }
-
-    public void setDepartments(Map<String, String> departments) {
-        this.departments = departments;
-    }
-
     private Map<String, String> departments;
+    private String carBrand;
     private Map<String, String> carBrands;
-
+    private String [] languages;
+    private Map<String, String> languageList;
     public Employee() {
         departments = new HashMap<>();
         departments.put("IT", "Information Technology");
@@ -32,6 +26,11 @@ public class Employee {
         carBrands.put("BMW","BMW");
         carBrands.put("Audi","Audi");
         carBrands.put("Mercedes-Benz","MB");
+
+        languageList = new HashMap<>();
+        languageList.put("English", "En");
+        languageList.put("Deutch", "DE");
+        languageList.put("French", "FR");
 
     }
 
@@ -67,6 +66,14 @@ public class Employee {
         this.department = department;
     }
 
+    public Map<String, String> getDepartments() {
+        return departments;
+    }
+
+    public void setDepartments(Map<String, String> departments) {
+        this.departments = departments;
+    }
+
     public String getCarBrand() {
         return carBrand;
     }
@@ -81,6 +88,22 @@ public class Employee {
 
     public void setCarBrands(Map<String, String> carBrands) {
         this.carBrands = carBrands;
+    }
+
+    public String[] getLanguages() {
+        return languages;
+    }
+
+    public void setLanguages(String[] languages) {
+        this.languages = languages;
+    }
+
+    public Map<String, String> getLanguageList() {
+        return languageList;
+    }
+
+    public void setLanguageList(Map<String, String> languageList) {
+        this.languageList = languageList;
     }
 
     @Override
