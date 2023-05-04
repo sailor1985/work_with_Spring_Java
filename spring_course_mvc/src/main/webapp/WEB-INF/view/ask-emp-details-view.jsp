@@ -27,12 +27,14 @@
 
 <form:form action = "showDetails" modelAttribute = "employee">
     Name <form:input path="name"/>
+    <form:errors path="name"/>
     <br><br>
     Surname <form:input path="surname"/>
+    <form:errors path="surname"/>
     <br><br>
     Salary <form:input path="salary"/>
     <br><br>
-    Deparnement <form:select path="department">
+    Department <form:select path="department">
 <%--    <form:option value="Information Technology" label="IT"/>--%>
 <%--    <form:option value="Human Resources" label="HR"/>--%>
 <%--    <form:option value="Sales" label="Sales"/>--%>
