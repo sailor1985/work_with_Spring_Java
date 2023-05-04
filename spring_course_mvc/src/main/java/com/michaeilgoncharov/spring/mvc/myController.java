@@ -54,8 +54,6 @@ public class myController {
         int salary = emp.getSalary();
         emp.setSalary(salary*10);
 
-
-
         return "show-emp-details-view";
     }
 

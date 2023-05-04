@@ -29,6 +29,8 @@ Your name = ${employee.name}
 Your surname = ${employee.surname}
 <br>
 Your salary = ${employee.salary}
+<br>
+Your departamet = ${employee.department}
 
 
 </body>
