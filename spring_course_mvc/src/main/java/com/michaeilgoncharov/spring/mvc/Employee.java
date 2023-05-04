@@ -1,9 +1,7 @@
 package com.michaeilgoncharov.spring.mvc;
 
-import jakarta.validation.constraints.NotBlank;
-import jakarta.validation.constraints.NotEmpty;
-import jakarta.validation.constraints.NotNull;
-import jakarta.validation.constraints.Size;
+import jakarta.validation.constraints.*;
+
 import java.lang.reflect.MalformedParametersException;
 import java.util.HashMap;
 import java.util.Map;
@@ -15,6 +13,8 @@ public class Employee {
 //    @NotEmpty(message = "surname is required field")
     @NotBlank(message = "surname is required field")
     private String surname;
+    @Min(value = 500, message = "must be greater than 499")
+    @Max(value = 1000, message = "must be less than 1001")
     private int salary;
     private String department;
     private Map<String, String> departments;
@@ -22,6 +22,8 @@ public class Employee {
     private Map<String, String> carBrands;
     private String [] languages;
     private Map<String, String> languageList;
+    @Pattern(regexp = "\\d{3}-\\d{2}-\\d{2}", message = "please use pattern XXX-XX-XX")
+    private String phoneNumber;
     public Employee() {
         departments = new HashMap<>();
         departments.put("IT", "Information Technology");
@@ -110,6 +112,14 @@ public class Employee {
 
     public void setLanguageList(Map<String, String> languageList) {
         this.languageList = languageList;
+    }
+
+    public String getPhoneNumber() {
+        return phoneNumber;
+    }
+
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
     }
 
     @Override
