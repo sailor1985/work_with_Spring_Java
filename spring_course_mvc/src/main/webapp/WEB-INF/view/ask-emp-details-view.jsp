@@ -57,6 +57,9 @@
     <br><br>
     PhoneNumber <form:input path="phoneNumber"/>
     <form:errors path="phoneNumber"/>
+    <br><br>
+    E-mail <form:input path="email"/>
+    <form:errors path="email"/>
 
 
     <br><br>

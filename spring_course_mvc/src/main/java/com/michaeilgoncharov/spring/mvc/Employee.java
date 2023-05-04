@@ -1,13 +1,12 @@
 package com.michaeilgoncharov.spring.mvc;
 
+import com.michaeilgoncharov.spring.mvc.validation.CheckEmail;
 import jakarta.validation.constraints.*;
-
 import java.lang.reflect.MalformedParametersException;
 import java.util.HashMap;
 import java.util.Map;
 
 public class Employee {
-
     @Size(min = 2, message = "name must be min 2 symbols")
     private String name;
 //    @NotEmpty(message = "surname is required field")
@@ -24,6 +23,9 @@ public class Employee {
     private Map<String, String> languageList;
     @Pattern(regexp = "\\d{3}-\\d{2}-\\d{2}", message = "please use pattern XXX-XX-XX")
     private String phoneNumber;
+//    @CheckEmail
+    @CheckEmail(value = "abc.com", message = "email must ends abc.com")
+    private String email;
     public Employee() {
         departments = new HashMap<>();
         departments.put("IT", "Information Technology");
@@ -120,6 +122,14 @@ public class Employee {
 
     public void setPhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
     }
 
     @Override
