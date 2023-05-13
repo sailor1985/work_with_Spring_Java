@@ -14,7 +14,7 @@
 		http://www.springframework.org/schema/tx
 		http://www.springframework.org/schema/tx/spring-tx.xsd">
 
-    <context:component-scan base-package="com.michaelgoncharov.spring.mvc_hibernate_aop" />
+    <context:component-scan base-package="com.michaelgoncharov.spring_mvc_hibernate_aop" />
 
     <mvc:annotation-driven/>
 
@@ -35,7 +35,7 @@
     <bean id="sessionFactory"
           class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
         <property name="dataSource" ref="dataSource" />
-        <property name="packagesToScan" value="com.michaelgoncharov.spring.mvc_hibernate_aop.entity" />
+        <property name="packagesToScan" value="com.michaelgoncharov.spring_mvc_hibernate_aop.entity" />
         <property name="hibernateProperties">
             <props>
                 <prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect</prop>
@@ -53,3 +53,9 @@
 
 
 </beans>
+
+
+
+
+
+
