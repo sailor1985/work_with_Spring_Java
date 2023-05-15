@@ -9,19 +9,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77a6ba82-de6a-4e05-89f5-b574f7e1f11e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/all-employees.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_course_mvc/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_course_mvc/spring_course_mvc.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_course_mvc/target/classes/com/michaeilgoncharov/spring/mvc/myController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_course_mvc/target/classes/com/michaeilgoncharov/spring/mvc/myController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_course_mvc/target/spring_course_mvc/WEB-INF/classes/com/michaeilgoncharov/spring/mvc/myController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_course_mvc/target/spring_course_mvc/WEB-INF/classes/com/michaeilgoncharov/spring/mvc/myController.class" afterDir="false" />
+    <list default="true" id="a0ae31a2-d30f-47bc-b2ed-633cf5b42711" name="Changes" comment="org.springframework.web.servlet.FrameworkServlet.initServletBean Context initialization failed">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +24,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/all-employees.jsp" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -38,29 +36,26 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectId" id="2Pnqs93yI1p4kwlh6LrLhz8YfMN" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="2PqGwgrqdP4JW3zLimYKhI5vL2d" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "project.structure.last.edited": "Facets",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.33911368",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -71,16 +66,10 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Клен-М\IdeaProjects\spring_course_mvc_hibernate_aop\src\main\webapp\WEB-INF\view" />
       <recent name="C:\Users\Клен-М\IdeaProjects\spring_course_mvc_hibernate_aop\src\main\webapp\WEB-INF" />
-      <recent name="C:\Users\Клен-М\IdeaProjects\spring_course_mvc_hibernate_aop\src\main\java\com\michaelgoncharov\spring_course_mvc_hibernate_aop" />
+      <recent name="C:\Users\Клен-М\IdeaProjects\spring_course_mvc_hibernate_aop\src\main\java\com\michaelgoncharov\spring\mvc_hibernate_aop" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="excludedTypes">
-      <set>
-        <option value="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" />
-      </set>
-    </option>
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 10.1.8" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.8" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
@@ -88,12 +77,12 @@
       <deployment>
         <artifact name="spring_course_mvc_hibernate_aop:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/spring_course_mvc_hibernate_aop" />
+            <option name="CONTEXT_PATH" value="/spring_course_mvc_hibernate" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="03788f5a-1d2e-47ca-a64e-0856fc1512a6" />
+        <option name="BASE_DIRECTORY_NAME" value="d5b8a775-27ee-4f4e-9811-a72a529f1e41" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -101,7 +90,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="55832" />
+        <option name="DEBUG_PORT" value="61035" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -174,23 +163,28 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="77a6ba82-de6a-4e05-89f5-b574f7e1f11e" name="Changes" comment="" />
-      <created>1684103396781</created>
+      <changelist id="a0ae31a2-d30f-47bc-b2ed-633cf5b42711" name="Changes" comment="" />
+      <created>1684177439676</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1684103396781</updated>
-      <workItem from="1684103398433" duration="2323000" />
+      <updated>1684177439676</updated>
+      <workItem from="1684177440994" duration="3649000" />
     </task>
+    <task id="LOCAL-00001" summary="org.springframework.web.servlet.FrameworkServlet.initServletBean Context initialization failed">
+      <created>1684180844192</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1684180844192</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
+    <MESSAGE value="org.springframework.web.servlet.FrameworkServlet.initServletBean Context initialization failed" />
+    <option name="LAST_COMMIT_MESSAGE" value="org.springframework.web.servlet.FrameworkServlet.initServletBean Context initialization failed" />
   </component>
 </project>
