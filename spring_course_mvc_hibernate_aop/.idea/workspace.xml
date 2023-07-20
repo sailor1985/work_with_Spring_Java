@@ -9,7 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0ae31a2-d30f-47bc-b2ed-633cf5b42711" name="Changes" comment="org.springframework.web.servlet.FrameworkServlet.initServletBean Context initialization failed" />
+    <list default="true" id="a0ae31a2-d30f-47bc-b2ed-633cf5b42711" name="Changes" comment="org.springframework.web.servlet.FrameworkServlet.initServletBean Context initialization failed">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -164,6 +166,7 @@
       <workItem from="1684177440994" duration="4838000" />
       <workItem from="1684432757816" duration="512000" />
       <workItem from="1684443937805" duration="755000" />
+      <workItem from="1685370420930" duration="2869000" />
     </task>
     <task id="LOCAL-00001" summary="org.springframework.web.servlet.FrameworkServlet.initServletBean Context initialization failed">
       <created>1684180844192</created>
